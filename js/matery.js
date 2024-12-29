@@ -4,7 +4,7 @@ $(function () {
      */
     let articleCardHover = function () {
         let animateClass = 'animated pulse';
-        $('article .article').hover(function () {
+        $('article .article').hover(function () {       //article标签的一个class也叫article的子元素
             $(this).addClass(animateClass);
         }, function () {
             $(this).removeClass(animateClass);
